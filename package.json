@@ -1,0 +1,22 @@
+{
+  "private": false,
+  "name": "@docktron/sdk",
+  "version": "1.0.0",
+  "description": "Docktron SDK",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "author": "leon3s",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@docktron/headers": "^1.0.1"
+  }
+}
